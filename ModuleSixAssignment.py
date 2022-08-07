@@ -6,6 +6,8 @@ rooms = {
         'Bedroom': {'North': 'Great Hall', 'East': 'Cellar'},
         'Cellar': {'West': 'Bedroom'}
     }
+
+
 curr_room = ''
 player_move = ''
 player_move = str(input('Which way would you like to move?, \n'))
